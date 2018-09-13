@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/python2.7
 # -*- coding: utf-8 -*-
 import locale
 
@@ -18,7 +18,7 @@ import locale
 # User configuration:
 
 # Year to generate for
-year = 2009
+year = 2018
 
 # Locale -- uncomment one only, use utf-8 encoding ONLY
 #

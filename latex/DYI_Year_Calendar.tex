@@ -37,10 +37,11 @@
 % - Sunday
 \newcolumntype{Z}{>{\hfill\normalfont\footnotesize\color{WeekendDay}}p{\WkdayColWidthMonthTblYC}<{\hspace*{0.5em}}}
 
+%		\WkdayTblRow{\mdseries\tiny} \\
 \newcommand{\MonthTblYC}[1]{%
 	\begin{tabular*}{\MonthTblWidthYC}[t]{@{}*{5}{W}SZ@{}}
 		\rowcolor{HeadSubBg}
-		\WkdayTblRow{\bfseries\tiny} \\
+		\WkdayTblRow{\bfseries\scalebox{.6}} \\
 		#1
 	\end{tabular*}}
 
@@ -76,7 +77,7 @@
 \rule{\textwidth}{1pt}\par
 \rule{\textwidth}{1pt}\par
 \rule{\textwidth}{1pt}\par
-\rule{\textwidth}{1pt}\par
-\rule{\textwidth}{1pt}\par
+%\rule{\textwidth}{1pt}\par
+%\rule{\textwidth}{1pt}\par
 \rule{\textwidth}{1pt}\par}
 

@@ -40,3 +40,6 @@ realdist: realclean
 	cd .. ; \
 	tar -czvf DIY_Organizer-realdist_`date +%F`.tar.gz DIY_Organizer
 
+installpkg:
+	sudo apt-get update 
+	sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra

@@ -43,3 +43,14 @@ realdist: realclean
 installpkg:
 	sudo apt-get update 
 	sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra
+
+#apt-get install pdftk pdfjam
+#pdfnup 2018monthly.pdf --nup 2x1 --outfile 2018monthly2up.pdf
+#pdftk DYI_2018.pdf cat 18-25 output 2018monthly.pdf
+
+# links
+# http://www.fountainpennetwork.com/forum/topic/312701-dot-paper-generator/
+# https://michaelgoerz.net/notes/printable-paper-with-latex-and-tikz.html
+# https://tex.stackexchange.com/questions/162403/creating-a-dotted-paper-pdf
+# https://savorandsavvy.com/2017/02/dot-grid-paper-printable.html
+# https://github.com/jrblevin/dot-grid-paper
